@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     
-    @State var showingDetail = false
+    @State var showingCreateDesk = false
     @Environment(\.managedObjectContext) var moc
     @FetchRequest( sortDescriptors: []) var desks: FetchedResults<Desk>
     
@@ -21,7 +21,9 @@ struct ContentView: View {
             
             List {
                 ForEach(desks) { desk in
-                    Group {
+                    NavigationLink {
+                        
+                    } label: {
                         Text("\(desk.deskName ?? "Unknown")")
                     }
                 }
@@ -30,12 +32,11 @@ struct ContentView: View {
                     Text("No desks")
                 }
             }
-            
             .navigationBarTitle("Your desks")
             .toolbar {
                 ToolbarItem(placement:.navigationBarTrailing, content: {
                     Button {
-                        showingDetail.toggle()
+                        showingCreateDesk.toggle()
                     } label: {
                         Label("Add desk", systemImage: "plus")
                     }
@@ -46,7 +47,7 @@ struct ContentView: View {
                 }//: ToolBar
                 
             }
-            .sheet(isPresented: $showingDetail) {
+            .sheet(isPresented: $showingCreateDesk) {
                 AddDesk().environment(\.managedObjectContext, self.moc)
             }
             

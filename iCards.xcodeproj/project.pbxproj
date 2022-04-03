@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B5A3D98527F763670028D535 /* Button1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A3D98427F763670028D535 /* Button1.swift */; };
+		B565426927F9DB2A004F7C91 /* AddWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B565426827F9DB2A004F7C91 /* AddWord.swift */; };
 		B5A3D98727F765030028D535 /* AddDesk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A3D98627F765030028D535 /* AddDesk.swift */; };
 		B5A3D98927F76B020028D535 /* DeskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A3D98827F76B020028D535 /* DeskView.swift */; };
 		B5B75CC027F9BB5E00B8EBEC /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B75CBF27F9BB5E00B8EBEC /* DataController.swift */; };
 		B5B75CC327F9BC0500B8EBEC /* Desk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5B75CC127F9BC0500B8EBEC /* Desk.xcdatamodeld */; };
+		B5CD492227F9D4E0005370C9 /* DetailedDesk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD492127F9D4E0005370C9 /* DetailedDesk.swift */; };
 		B5ED8CDA27F716AD003B5D25 /* iCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED8CD927F716AD003B5D25 /* iCardsApp.swift */; };
 		B5ED8CDC27F716AD003B5D25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ED8CDB27F716AD003B5D25 /* ContentView.swift */; };
 		B5ED8CDE27F716AD003B5D25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5ED8CDD27F716AD003B5D25 /* Assets.xcassets */; };
@@ -19,11 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B5A3D98427F763670028D535 /* Button1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button1.swift; sourceTree = "<group>"; };
+		B565426827F9DB2A004F7C91 /* AddWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWord.swift; sourceTree = "<group>"; };
 		B5A3D98627F765030028D535 /* AddDesk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDesk.swift; sourceTree = "<group>"; };
 		B5A3D98827F76B020028D535 /* DeskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeskView.swift; sourceTree = "<group>"; };
 		B5B75CBF27F9BB5E00B8EBEC /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		B5B75CC227F9BC0500B8EBEC /* Desk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Desk.xcdatamodel; sourceTree = "<group>"; };
+		B5CD492127F9D4E0005370C9 /* DetailedDesk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedDesk.swift; sourceTree = "<group>"; };
 		B5ED8CD627F716AD003B5D25 /* iCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5ED8CD927F716AD003B5D25 /* iCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCardsApp.swift; sourceTree = "<group>"; };
 		B5ED8CDB27F716AD003B5D25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,11 +72,12 @@
 		B5ED8CD827F716AD003B5D25 /* iCards */ = {
 			isa = PBXGroup;
 			children = (
-				B5A3D98427F763670028D535 /* Button1.swift */,
 				B5A3D98827F76B020028D535 /* DeskView.swift */,
 				B5A3D98627F765030028D535 /* AddDesk.swift */,
+				B565426827F9DB2A004F7C91 /* AddWord.swift */,
 				B5ED8CDB27F716AD003B5D25 /* ContentView.swift */,
 				B5ED8CD927F716AD003B5D25 /* iCardsApp.swift */,
+				B5CD492127F9D4E0005370C9 /* DetailedDesk.swift */,
 				B55016D427F99EEB00D9DC6B /* CoreData */,
 				B5ED8CDD27F716AD003B5D25 /* Assets.xcassets */,
 				B5ED8CDF27F716AD003B5D25 /* Preview Content */,
@@ -162,10 +165,11 @@
 			files = (
 				B5B75CC327F9BC0500B8EBEC /* Desk.xcdatamodeld in Sources */,
 				B5B75CC027F9BB5E00B8EBEC /* DataController.swift in Sources */,
+				B5CD492227F9D4E0005370C9 /* DetailedDesk.swift in Sources */,
 				B5A3D98727F765030028D535 /* AddDesk.swift in Sources */,
 				B5A3D98927F76B020028D535 /* DeskView.swift in Sources */,
+				B565426927F9DB2A004F7C91 /* AddWord.swift in Sources */,
 				B5ED8CDC27F716AD003B5D25 /* ContentView.swift in Sources */,
-				B5A3D98527F763670028D535 /* Button1.swift in Sources */,
 				B5ED8CDA27F716AD003B5D25 /* iCardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

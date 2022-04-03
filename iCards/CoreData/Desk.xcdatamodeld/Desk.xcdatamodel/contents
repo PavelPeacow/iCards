@@ -3,7 +3,12 @@
     <entity name="Desk" representedClassName="Desk" syncable="YES" codeGenerationType="class">
         <attribute name="deskName" optional="YES" attributeType="String"/>
     </entity>
+    <entity name="Word" representedClassName="Word" syncable="YES" codeGenerationType="class">
+        <attribute name="englishWord" optional="YES" attributeType="String"/>
+        <attribute name="russianWord" optional="YES" attributeType="String"/>
+    </entity>
     <elements>
         <element name="Desk" positionX="-54" positionY="-9" width="128" height="44"/>
+        <element name="Word" positionX="-54" positionY="0" width="128" height="59"/>
     </elements>
 </model>
